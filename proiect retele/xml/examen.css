@@ -1,0 +1,39 @@
+
+#listing {
+  font-family: Arial, Helvetica, sans-serif;
+}
+  
+.nume {
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.2em;
+}
+
+.fel_obiectiv {
+  font-size: 11pt;
+  font-family: Arial, Helvetica, sans-serif;
+  border-style: solid;
+  border-width: 1px; 
+  border-color: ##B0E0E6;
+  border-right-width: 2px;
+  border-bottom-width: 2px;
+  padding: 0.4em;
+  
+}
+   
+.tara {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10pt;
+  text-align: right;
+  margin-bottom: 1em;
+}
+
+.pret_bilet {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10pt;
+  text-align: right;
+  margin-bottom: 1em;
+}
+
+li {
+  margin-left: -2em;
+}  

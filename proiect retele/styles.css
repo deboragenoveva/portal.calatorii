@@ -1,0 +1,184 @@
+/*Formular login */
+.login-form {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.login-form input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #386ed9;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+ /* Stilizare pentru caseta formularului de login */
+ .login-container {
+  background-color: #f2f2f2;
+  padding: 50px 70px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.login-page {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+  background-image: url("https://wallpapers.com/images/featured/ibk7fgrvtvhs7qzg.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+  /* Meniu */
+  /* Stilizare pentru meniu */
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    background-color: #14788c;
+    padding: 10px;
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+  .menu ul li {
+    margin-right: 10px;
+  }
+
+  .menu ul li a {
+    text-decoration: none;
+    color: #000000;
+    padding: 10px 20px;
+    font-size: 25px;
+  }
+
+  .menu ul li a:hover {
+    color: #63badd;
+  }
+
+/* Meniu acasa - imagini*/
+.image-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.image-container img {
+  margin: 10px;
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Meniu destinatii - atractii : descriere, inffo utile*/
+/* Stilizare pentru secțiunea de atracții turistice */
+.attractions-section {
+  padding: 20px;
+}
+
+.attraction {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.attraction img {
+  width: 300px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.attraction-info {
+  flex: 1;
+  font-size: 13px;
+}
+.attraction-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 13px;
+}
+.attraction-description {
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+
+/* Contact*/
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+
+.form-container {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 400px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  justify-content: center;
+ align-items: center;
+}
+
+.form-container h2 {
+  text-align: center;
+}
+
+.form-container label,
+.form-container input,
+.form-container textarea,
+.form-container button {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.form-container textarea {
+  height: 80px;
+}
+
+.form-container input (submit) {
+  background-color: #3551a5;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50; /* Culoarea de fundal */
+  color: white; /* Culoarea textului */
+  padding: 10px 20px; /* Spațierea dintre text și marginile butonului */
+  font-size: 16px; /* Dimensiunea textului */
+  border: none; /* Eliminarea marginilor */
+  cursor: pointer; /* Transformarea cursorului într-un pointer la interacțiune */
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049; /* Culoarea de fundal la hover */
+}
+
+.form-container .status-message {
+  text-align: center;
+  margin-top: 10px;
+}
+
